@@ -7,10 +7,12 @@ nota1tri = Number(prompt("qual sua nota do primeiro trimestre"));
 nota2tri = Number(prompt("qual sua nota do segundo trimestre"));
 resultado = 180 - (nota1tri + nota2tri);
 
-if(resultado = 180){ 
-
+if(resultado <= 0){ 
+alert("parabens, você ja passou de ano");
 }
 
+else{
+alert("falta " + resultado +" pontos para você passar de ano");
+}
 
-alert("a nota que falta para você é "+ resultado);
 }
